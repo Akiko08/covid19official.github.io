@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> Home </title>	 
+	<style type="text/css">
+
+
+
+	.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+	}
+
+	.text h4{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+	.text h1{
+	font-size:125px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+	color: #fac814
+	}
+
+
+	body{
+  	margin: 0;
+  	padding: 0;
+  	background: url(covid19.jpg) no-repeat;
+	background-attachment: fixed;
+	background-repeat: scroll;
+	}
+		
+	*{
+			
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	}
+	
+	nav{
+	background: rgba(0, 0, 0, 0.4);
+	height: 80px;
+	width: 100%;
+	}
+
+	label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	}
+
+	nav ul{
+	float: right;
+	margin-right: 20px;
+	}
+
+	nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	}
+
+	nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	}
+
+	a.active,a:hover{
+	background: red;
+	transition: .5s;
+	}
+
+	.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+	}
+
+	#check{
+	display: none;
+	
+	@media (max-width: 952px){
+	  label.logo{
+	font-size: 30px;
+	padding-left: 50px;
+	}
+	nav ul li a{
+	font-size: 16px;
+	  }
+	}
+	@media (max-width: 858px){
+	 .checkbtn{
+	 display: block;
+	}
+
+	ul{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #2c3e50;
+	top: 80px;
+	left: -100%;
+	text-align: center;
+	transition: all .5s;
+	}
+
+	nav ul li{
+	display: block;
+	margin: 50px 0;
+	line-height: 30px;
+	}
+
+	nav ul li a{
+	font-size: 20px;
+	}
+
+	a:hover,a.active{
+	background: none;
+	color: #0082e6;
+	}
+
+	 #check:checked ~ ul{
+	 left: 0;
+	}
+
+
+	</style>
+
+		</head>
+
+			<body>
+	 
+
+			<nav>
+		      <input type="checkbox" id="check">
+		      <label for="check" class="checkbtn">
+		        <i class="fas fa-bars"></i>
+		      </label>
+		      <label style="font-family:Impact; "class="logo">COVID-19</label>
+		      <ul>
+		        <li><a href="Home.html">Home</a></li>
+		        <li><a href="Survey.html">Survey</a></li>
+		        <li><a href="News.html">News</a></li>
+		        <li><a href="Tips.html">Tips</a></li>
+		        <li><a href="about.html">About</a></li>
+		      </ul>
+		    </nav>
+
+    	<div class="text">
+			<h4> <span style="color: green">Be Informed</span> • <span style="color: blue;"> Stay Healthy </span> • Save lives </h4>
+			<h1> Fight <span style="color: red">Covid-19</span></h1> 
+		</div>
+
+	</body>
+</html>

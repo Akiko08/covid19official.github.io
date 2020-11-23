@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title> Tips </title>
+    <style type="text/css">
+
+h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+  color: #fac814;
+  font-size: 45px;
+  }
+    
+body{
+  background-image: url(back.png);
+   background-size: cover;
+        background-attachment: fixed;
+        background-repeat: scroll;
+      }  
+  img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+   
+    
+    .tip{
+      font-family: Arial;
+      font-size: 18px;
+      border-radius: 15px;
+      background-color: white;
+      border: 2px solid;
+      text-indent: 2em;
+      margin:auto;
+  padding: 10px; 
+  width: 1000px;
+  overflow: auto;
+    }
+    .tip2{
+      font-family: Arial;
+      font-size: 18px;
+      border-radius: 15px;
+      background-color: white;
+      border: 2px solid;
+      text-indent: 2em;
+      margin:auto;
+  padding: 10px; 
+  width: 1000px;
+  overflow: auto;
+    }
+
+    .tip3{
+      font-family: Arial;
+      font-size: 18px;
+      border-radius: 15px;
+      background-color: white;
+      border: 2px solid;
+      text-indent: 2em;
+      margin:auto;
+  padding: 10px; 
+  width: 1000px;
+  overflow: auto;
+    }
+
+
+
+
+	*{
+			
+			margin:0px;
+		  text-decoration: none;
+		  list-style: none;
+		  box-sizing: border-box;
+		}
+	
+nav{
+  background: rgba(0, 0, 0, 0.4);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: skyblue;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+
+	
+
+</style>
+</head>
+<body>
+
+
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label style="font-family:Impact; "class="logo">COVID-19</label>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Survey.html">Survey</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Tips.html">Tips</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+  </br>
+  </br>
+
+    <h1> Coronavirus Safety Tips for Everyone </h1>
+    </br>
+    </br>
+      
+      <div class=tip> 
+
+              </br>
+             <h2 style="text-align: center;"> How Does COVID-19 Spread? </h2>
+             </br>
+
+             <ul>
+
+                <img src="spred.jpg" style="border-radius:5px;">
+                </br>
+
+
+
+              <li style="list-style-type: disc;"> <p>According to the CDC, the virus is thought to be spread mainly from person-to-person. This means it may spread between people who are in close contact with one another (within about 6 feet), or through respiratory droplets when an infected person coughs or sneezes. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. COVID-19 may be spread by people who are not showing symptoms.</p> </li> 
+             </br>
+
+             <li style="list-style-type: disc;"> <p>The CDC also reports that it may be possible for someone to get COVID-19 by touching a surface or object with the virus on it, and then touching their own mouth, nose, or possibly their eyes, but this is not thought to be the main way the virus spreads.</p></li>
+             </br>
+
+             <li style="list-style-type: disc;"> <p>The best way to prevent illness from COVID-19 is to avoid being exposed to the virus, as there is currently no vaccine to prevent COVID-19.</p></li>
+             </br>
+
+              </ul>
+      </div>
+       </br>
+
+
+      <div class="tip2">
+
+        </br>
+             <h2 style="text-align: center;"> Use Healthy Practices to Protect Yourself </h2>
+             <h3 style="text-align: center;"> The best way to stay healthy is to follow these steps from the CDC:  </h3>
+             </br>
+
+             <ul>
+
+              <img src="tip.jpg" style="border-radius:5px;">
+                </br>
+
+
+             <li style="list-style-type: square;"> <p> Wash your hands often with soap and water for at least 20 seconds, especially after being in a public place, or after blowing your nose, coughing or sneezing. If soap and water are not readily available, use a hand sanitizer with at least 60% alcohol.</p></li>
+               </br>
+
+
+             <li style="list-style-type: square;"> <p> Avoid touching your eyes, nose and mouth with unwashed hands.</p></li>
+                </br>
+
+             <li style="list-style-type: square;"> <p> Avoid close contact with people who are sick, and practice social distancing by keeping at least 6 feet away from others if you must go out in public. </p></li>
+               </br>
+
+             <li style="list-style-type: square;"> <p> Wear a cloth face covering to cover your mouth and nose when around others and when you must go out in public. The cloth face cover is meant to protect other people in case you are infected. Don’t place one on young children under age 2, anyone who has trouble breathing, or is unconscious, incapacitated or otherwise unable to remove the mask without assistance.</p> </li>
+               </br>
+
+
+             <li style="list-style-type: square;"> <p> Cover your nose and mouth with a tissue when coughing or sneezing and throw the tissue away after use. If a tissue isn’t available, cough or sneeze into your elbow or sleeve, not your hands. </p> </li>
+               </br>
+
+
+             <li style="list-style-type:square;"> <p> Clean and disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, handles, desks, computers, phones, keyboards, sinks, toilets, faucets and countertops.</p> </li>
+               </br>
+        
+            </ul>
+      </div>
+      </br>
+
+
+
+            <div class="tip3">
+              </br>
+
+              <h2> Follow these five easy steps to help prevent the spread of COVID-19 </h2>
+              </br>
+              </br>
+
+              <img src="steps.png">
+
+
+            </div>
+
+
+
+</body>
+</html>
+

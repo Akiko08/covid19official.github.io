@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title> About </title>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <style type="text/css">
+
+h1{
+	text-align: center;
+	font-family: Impact;
+}
+    
+body{
+  margin: 0;
+  padding: 0;
+  background: url(a.jpg) no-repeat;
+	      background-attachment: fixed;
+	      background-repeat: scroll;
+        background-size: cover;
+        
+        
+	    
+}
+.box{
+  width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li #a:hover{
+  color: #b9b9b9;
+}
+
+
+
+
+	*{
+			
+			margin:0px;
+		  text-decoration: none;
+		  list-style: none;
+		  box-sizing: border-box;
+		}
+	
+nav{
+  background: rgba(0, 0, 0, 0.4);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: #13c200;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+	
+
+</style>
+</head>
+<body>
+
+
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label style="font-family:Impact; "class="logo">COVID-19</label>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Survey.html">Survey</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Tips.html">Tips</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+
+
+<div class="box">
+  <img src="kevin.jpg" alt="Kevin Image" class="box-img">
+  <h1>Kevin Brian S. Ibañez</h1>
+  </br>
+<h5>- Web Developer - </h5>
+</br>
+<p style="text-align: center"> My name is Kevin Brian S. Ibañez, I am 19 years old and i'm form Laur, Nueva Ecija.</p>
+</br>
+</br>
+
+<p style="text-align: center;"> Contact Me </p>
+<ul>
+<li><a id="a" href="https://www.facebook.com/kevz.ibanez"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+<li><a href="https://mail.google.com/mail/u/0/?tab=km#inbox"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+
+
+
+
+</body>
+</html>
+

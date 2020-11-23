@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title> Survey </title>
+
+		<style type="text/css">
+
+
+		body{
+	      background-image:url(back5.jpeg);
+	      background-size: cover;
+	      background-attachment: fixed;
+	      background-repeat: scroll;
+	    }  
+
+	    h1{
+	      text-align: center;
+	      color: red;
+	  	}
+
+	    h3{
+	    	text-align: center;
+	    	font-family: Arial;
+	    }
+
+	    p{
+	     text-indent: 2em;
+	    }
+	    
+	    img{
+	      width: 220px;
+	      height: 220px;
+	    }
+
+		h1{
+			text-align: center;
+			font-family: calibri;
+			}
+
+		form{
+			margin-left: 260px;
+			width: 1010px;
+			border: 1px solid#cccccc;
+			background-color:#eeeeee;
+			padding: 10px;
+			font-size: 14px;
+			font-family: calibri;
+			font-weight: bold;	
+		}
+
+		.para{
+			background-color:rgba(0, 0, 0, 0.6);
+			color: white;
+		
+			
+			font-family: Arial;
+
+
+			font-size: 20px;
+      border-radius: 15px;
+
+      border: 2px solid;
+      text-indent: 2em;
+      margin:auto;
+  padding: 10px; 
+  width: 1200px;
+  overflow: auto;
+		}
+
+
+		.inputformat{
+			width: 100%;
+			padding: 12px;
+			display: inline-block;
+			margin: 8px 0px;
+			border: 1px solid #cccccc;
+			box-sizing: border-box;
+		}
+
+		#submit{
+			border-radius: 15px;
+			color: white;
+			padding: 10px;
+			margin: 8px 0px;
+			border: none;
+			width: 50%;
+			float: left;
+			background-color: red;
+		}
+
+		#clear{
+			border-radius: 15px;
+			color: white;
+			padding: 10px;
+			margin: 8px 0px;
+			border: none;
+			width: 50%;
+			background-color: orange;
+		}
+
+		.text{
+	  		text-align: center;
+	  		font-size: 17px;
+	  		}
+
+		*{
+			
+			margin:0px;
+		  text-decoration: none;
+		  list-style: none;
+		  box-sizing: border-box;
+		}
+			
+		nav{
+		  background: rgba(0, 0, 0, 0.4);
+		  height: 80px;
+		  width: 100%;
+		}
+		label.logo{
+		  color: white;
+		  font-size: 35px;
+		  line-height: 80px;
+		  padding: 0 100px;
+		  font-weight: bold;
+		}
+
+		nav ul{
+		  float: right;
+		  margin-right: 20px;
+		}
+
+		nav ul li{
+		  display: inline-block;
+		  line-height: 80px;
+		  margin: 0 5px;
+		}
+
+		nav ul li a{
+		  color: white;
+		  font-size: 17px;
+		  padding: 7px 13px;
+		  border-radius: 3px;
+		  text-transform: uppercase;
+		}
+
+		a.active,a:hover{
+		  background: #ff8c1a;
+		  transition: .5s;
+		}
+
+		.checkbtn{
+		  font-size: 30px;
+		  color: white;
+		  float: right;
+		  line-height: 80px;
+		  margin-right: 40px;
+		  cursor: pointer;
+		  display: none;
+		}
+
+		#check{
+		  display: none;
+		}
+
+		@media (max-width: 952px){
+		  label.logo{
+		    font-size: 30px;
+		    padding-left: 50px;
+		}
+
+		  nav ul li a{
+		    font-size: 16px;
+		}
+
+		@media (max-width: 858px){
+		  .checkbtn{
+		    display: block;
+		}
+
+		 ul{
+		    position: fixed;
+		    width: 100%;
+		    height: 100vh;
+		    background: #2c3e50;
+		    top: 80px;
+		    left: -100%;
+		    text-align: center;
+		    transition: all .5s;
+		}
+
+		nav ul li{
+		 	display: block;
+		    margin: 50px 0;
+		    line-height: 30px;
+		}
+
+		nav ul li a{
+		    font-size: 20px;
+		}
+		a:hover,a.active{
+		    background: none;
+		    color: #0082e6;
+		}
+		#check:checked ~ ul{
+		    left: 0;
+		}
+		 
+
+		</style>
+
+			</head>
+
+			</html>
+
+				<body>
+
+				<nav>
+       
+			      </label>
+
+			      <label style="font-family:Impact; "class="logo">COVID-19</label>
+
+			      <ul>
+			        <li><a href="Home.html">Home</a></li>
+			        <li><a href="Survey.html">Survey</a></li>
+			        <li><a href="News.html">News</a></li>
+			        <li><a href="Tips.html">Tips</a></li>
+			        <li><a href="about.html">About</a></li>
+			      </ul>
+			  
+			    </nav>
+
+				</br>
+				</br>
+				</br>
+
+		  			<center> <img src="logo.png" style="width: 500px; height: 150px;" ;></center>
+
+		  			<center><h1>NCOV SURVEY </h1></center>
+				</br>
+
+		  			<p> <h3 style="color: khaki"; align="center"> This survey helps us to gather information about NCOV on how to prevent it from spreading and to avoid it. </h3> </p>
+
+
+				</br>
+				</br>
+				</br>
+
+					<div class="para">
+					</br>
+				   <h3> What is <span style="color: orange;">Covid-19</span>? </h3>
+				   </br>
+
+				  <p> A type of common virus that infects humans, typically leading to an <span style="color: red"> Upper Respiratory Infection </span> (URI). Seven different types of human coronavirus have been identified. Most people will be infected with at least one type of coronavirus in their lifetime. The viruses are spread through the air by <span style="color: red"> coughing</span> and <span style="color: red">sneering </span> close personal contact, touching an object or surface contaminated with the virus and rarely, by fecal contamination. The illness coused by most coraviruses usually lasts a short time and is characterized by <span style="color: red"> runny nose</span>, <span style="color: red;">sore throat</span>, <span style="color:red;">feeling unwell</span>, <span style="color: red;">cough</span>, and <span style="color: red;">fever</span>.</p>
+				  </br>
+				  </div>
+
+				</br>
+				</br>
+
+						
+					 <form style=" border-radius: 15px;">
+
+					<fieldset>
+
+					<legend style="text-align: center;"> <h2> SIGN UP FORM</h2> </legend>
+
+					First name: <input class="inputformat" type="text" name="fist name" placeholder="Enter first name" required> <br/>
+
+					Middle name: <input class="inputformat" type="text" name="middle name" placeholder="Enter middle name" required> <br/>
+
+					Last name: <input class="inputformat" type="text" name="last name" placeholder="Enter last name" required> <br/>
+
+			         Gender:
+			            <select class="inputformat" name="Gender" required="Enter Gender">
+			              <option value="">Select</option>
+			              <option value="male">Male</option>
+			              <option value="female">Female</option>
+			            </select>
+
+					Birthday:
+					<input  class="inputformat" type="date" name="Birthday" required="Enter Birthday"> <br/> 
+
+					Age : 
+					<input class="inputformat" type="number" name="Age" size="10"> </br>
+			    
+
+					Address :
+			    	<input class="inputformat" type="text" name="Address" size="30">
+			    	</br>
+
+					Contact No :
+			    	<input class="inputformat" type="number" name="contact" patter=[0-9]{11} size="30">
+			    	</br>
+
+					Civil Status:
+					<select class="inputformat" name="Status" required="Enter Civil Status">
+						<option> Single </option>
+						<option> Married </option>
+						<option> Separated </option>
+						<option> Windowed </option>
+					</select> 
+					</br>
+					</br>
+
+					</fieldset>
+						</br>
+
+					<fieldset>
+
+					<legend style="text-align: center;"> <h2> PLEASE ANSWER THE QUESTIONS </h2> </legend>
+					<br>
+
+					<div class="answer">
+				
+
+					<p class="text"> Why is the disease being called Coronavirus/Covid-19? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> What is the source of the Virus? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> How does the virus spread? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> Do you think someone who had the virus can spread the sickness to other? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> How can you help yourself to avoid getting the virus? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> Do you wash your hand with hand sanitizer or soap everyay? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> How did your family prepared for COVID-19?  </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> What would you do if there's is an person have the symptoms of COVID-19? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> Do you think we can still return to our normal life? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+
+			  		<p class="text"> If the virus is gone what do you think is the first thing that you going to do? </p>
+					<textarea name="message" rows="7" cols="130" placeholder="Please type your answer here" required></textarea>
+			  		<br>
+			  		<br>
+				
+			  		</div>
+
+			  		<input id="submit" type="submit" name="btnsave" value="Submit"> 
+					<input id="clear" type="reset" name="btnclear" value="Clear"> 
+
+					</fieldset>
+
+			</form>
+
+			
+
+		</body>
+</html>

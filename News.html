@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title> News </title>
+   
+    <style type="text/css">
+
+h1{
+	text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #f01d0e;
+  font-size: 45px
+}
+h2{
+  text-align: center;
+}
+    
+body{
+  margin: 0;
+  padding: 0;
+  background: url(news.jpg) no-repeat;
+	      background-attachment: fixed;
+	      background-repeat: scroll;
+        background-size: cover;
+      }
+        
+  
+      .news{
+        color: white;
+        font-family: Arial;
+      font-size: 20px;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.9);
+      border: 2px solid;
+      text-indent: 2em;
+      margin:auto;
+  padding: 10px; 
+  width: 1050px;
+  overflow: auto;
+    }
+    .youtube{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+
+
+
+	*{
+			
+			margin:0px;
+		  text-decoration: none;
+		  list-style: none;
+		  box-sizing: border-box;
+		}
+	
+nav{
+  background: rgba(0, 0, 0, 0.4);
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: violet;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+	
+
+</style>
+</head>
+<body>
+
+
+	<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label style="font-family:Impact; "class="logo">COVID-19</label>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Survey.html">Survey</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Tips.html">Tips</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+  </nav>
+
+      </br>
+      <h1> Covid-19 News Update </h1>
+      </br>
+
+  <div class="news"> 
+
+
+    </br>
+    <embed class=youtube style="width:500px; height:320px"; src="https://www.youtube.com/embed/CZFbUVl7gRs"></embed>
+    </br>
+    </br>
+
+
+
+    <h2> COVID-19 Vaccine ng Pfizer at BioNTech, 90% effective daw! </h2>
+    </br>
+
+    <p> Abot-kamay na nga ba ang bakuna para sa COVID-19? Ayon sa kumpanyang Pfizer at BioNTech, 90% effective sa Phase 3 ng clinical trials ang binubuo nilang vaccine. Sa Russia naman, epektibo rin daw ang bakuna na Sputnik V na nauna nang ibinigay sa 40,000 katao.'Yun nga lang, baka abutin pa raw ng hanggang 2022 bago makakuha ng vaccine ang Pilipinas. Nauna na raw kasing nakapagpa-reserve ng bakuna ang mayayamang bansa. Ang buong detalye, alamin sa video. </p>
+    </br>
+    <hr>
+
+  
+
+      </br>
+    <embed class=youtube style="width:500px; height:320px"; src="https://www.youtube.com/embed/oe9zi-EADU4"></embed>
+    </br>
+    </br>
+
+    <h2> COVID-19 vaccines could be in PH before second quarter of 2021, says FDA </h2>
+     </br>
+
+
+    <p>The Food and Drug Administration of the Philippines said that having emergency use authorization (EUA) would speed up the country’s timeline for importing a COVID-19 vaccine. Video from DOH</p>
+    </br>
+
+    <hr>
+
+
+      </br>
+    <embed class=youtube style="width:500px; height:320px"; src="https://www.youtube.com/embed/B1AzbYS9w_U"></embed>
+    </br>
+    </br>
+
+    <h2> PH may tally up to 480,000 COVID-19 cases by end-November: analyst </h2>
+  </br>
+
+    <p> The Philippines might reach 450,000 to 480,000 COVID-19 cases by end of November, a University of the Philippines researcher said.</p>
+    </br>
+
+
+    <hr>
+
+      </br>
+      </br>
+    <embed class=youtube style="width:500px; height:320px"; src="https://www.youtube.com/embed/YmaHFmFXDkE"></embed>
+    </br>
+    </br>
+
+    <h2> New PH COVID-19 cases stay below 1,000 for first time in 3 months </h2>
+  </br>
+
+    <p> For the first time since July 14, the Philippines logs less than a thousand coronavirus cases in a day. </p>
+      
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
